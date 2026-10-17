@@ -309,6 +309,10 @@ function action(section) {
     return normalize_action(option(section, "action", ""));
 }
 
+function selector_interrupt_exist_connections(section) {
+    return bool_option(section, "selector_interrupt_exist_connections", true);
+}
+
 function connection_urls(section) {
     return whitespace_list_value(section, "selector_proxy_links");
 }
@@ -1089,6 +1093,7 @@ return {
     is_connections_action,
     normalize_action,
     action,
+    selector_interrupt_exist_connections,
     connection_urls,
     subscription_urls,
     interfaces,

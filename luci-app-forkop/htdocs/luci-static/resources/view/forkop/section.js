@@ -7508,6 +7508,18 @@ function createSectionContent(section) {
   o = section.taboption(
     "settings",
     form.Flag,
+    "selector_interrupt_exist_connections",
+    _("Interrupt connections when switching section server"),
+    _("Interrupt existing connections when the section selector is switched to another server or group. URLTest and Priority groups have their own interrupt settings."),
+  );
+  o.default = "1";
+  o.rmempty = false;
+  o.depends("action", "connection");
+  o.modalonly = true;
+
+  o = section.taboption(
+    "settings",
+    form.Flag,
     "sort_by_latency",
     _("Sort by latency"),
     _("Sorts servers in this section by lowest latency in the dashboard."),

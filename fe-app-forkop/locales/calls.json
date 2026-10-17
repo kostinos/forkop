@@ -5549,5 +5549,19 @@
     "places": [
       "src/forkop/tabs/diagnostic/checks/runZapret2Check.ts:107"
     ]
+  },
+  {
+    "call": "Interrupt connections when switching section server",
+    "key": "Interrupt connections when switching section server",
+    "places": [
+      "../luci-app-forkop/htdocs/luci-static/resources/view/forkop/section.js:7512"
+    ]
+  },
+  {
+    "call": "Interrupt existing connections when the section selector is switched to another server or group. URLTest and Priority groups have their own interrupt settings.",
+    "key": "Interrupt existing connections when the section selector is switched to another server or group. URLTest and Priority groups have their own interrupt settings.",
+    "places": [
+      "../luci-app-forkop/htdocs/luci-static/resources/view/forkop/section.js:7513"
+    ]
   }
 ]

@@ -1434,7 +1434,7 @@ function add_proxy_selector(config, section, selector_tags, urltest_candidate_ta
         tag: selector_tag,
         outbounds: selector_outbounds,
         default: selector_default,
-        interrupt_exist_connections: true
+        interrupt_exist_connections: connections.selector_interrupt_exist_connections(section)
     });
 }
 
