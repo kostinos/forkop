@@ -1,3 +1,11 @@
+> **Этот форк больше не развивается.** Репозиторий `kostinos/forkop` был создан для подготовки [PR #142](https://github.com/ushan0v/forkop/pull/142) — настройки `selector_interrupt_exist_connections`. PR закрыт без слияния.
+>
+> Патч и тесты сохранены в ветке [`feat/section-selector-interrupt`](https://github.com/kostinos/forkop/tree/feat/section-selector-interrupt), коммит [`d6dfb18c`](https://github.com/kostinos/forkop/commit/d6dfb18c7abd5dce6b200907d59928f38e0d8f16). Перенос на Forkop 2.0 не выполнен.
+>
+> Актуальный проект: [`ushan0v/forkop`](https://github.com/ushan0v/forkop). Ниже сохранён исторический README upstream; его описание и инструкции могут быть устаревшими.
+
+---
+
 # Forkop (Podkop Plus)
 
 [![Star](https://img.shields.io/github/stars/ushan0v/forkop?style=social)](https://github.com/ushan0v/forkop/stargazers)
